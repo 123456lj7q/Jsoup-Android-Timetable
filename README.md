@@ -17,5 +17,13 @@ void inCardParams(int weekDay,int startNo, int endNo,View v,Context c,String con
 webview抓取仍在开发中，在repository中，我会提供详细的实现代码。这是一个免费的开源项目，禁止用于盈利。   
                                                                            
 # 项目中类目录如下(v1.0)
-Adapter.java//用于适配手机翻页功能
-Dialogs.java//用于调出对话框以及UI交互
+Adapter.java//用于适配手机翻页功能  
+Dialogs.java//用于调出对话框以及UI交互  
+ExplicitPage.java//用于配置显示课程表的主界面  
+MainActivity.java//加载动画界面，也可以初始化数据  
+NormalizeParams.java//接口类，重写绘制卡片  
+ParseHtml.java,eachDay.java//字符串工具类，解析网页以及生成对象  
+ResolveAndDrawImportedTable.java//定义卡片样式，重写接口并绘制课表
+SetSemeseterDates.java//计算当前日期，初始化ViewPager的日历
+SQLite.java//存储在本地的数据库类，非空时直接绘制卡片
+Transition.java//加载动画类，提供
