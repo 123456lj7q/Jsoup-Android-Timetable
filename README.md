@@ -7,6 +7,6 @@ Jsoup1.5.3,Android Studio 2020
 页面元素进行爬取，并编写形如ParseHtml的字符串工具类，将形如：   
 <u class="title showJxbtkjl"data-jxb_id="xxx"...><font color="blue">高等数学<u  
     
-这样的网页标签中的内容打包成数组，去重，规范化后，定义Interface NormalizeParams，在重写方法中定义有：  
+这样的网页标签中的内容打包成数组，去重，规范化后，定义接口：NormalizeParams，在重写方法中定义有：  
                                                                            
 void inCardParams(int weekDay,int startNo, int endNo,View v,Context c,String content,String classroom,String teacher);
