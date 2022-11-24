@@ -23,7 +23,7 @@ ExplicitPage.java//用于配置显示课程表的主界面
 MainActivity.java//加载动画界面，也可以初始化数据  
 NormalizeParams.java//接口类，重写绘制卡片  
 ParseHtml.java,eachDay.java//字符串工具类，解析网页以及生成对象  
-ResolveAndDrawImportedTable.java//定义卡片样式，重写接口并绘制课表
+ResolveAndDrawImportedTable.java//定义卡片样式，重写接口并绘制课表  
 SetSemeseterDates.java//计算当前日期，初始化ViewPager的日历
-SQLite.java//存储在本地的数据库类，非空时直接绘制卡片
+SQLite.java//存储在本地的数据库类，非空时直接绘制卡片  
 Transition.java//加载动画类，提供过渡动画
