@@ -10,3 +10,6 @@ Jsoup1.5.3,Android Studio 2020
 这样的网页标签中的内容打包成数组，去重，规范化后，定义接口：NormalizeParams，在重写方法中定义有：  
                                                                            
 void inCardParams(int weekDay,int startNo, int endNo,View v,Context c,String content,String classroom,String teacher);
+                                                                           
+在重写方法中，添加TextViews绘制卡片式课程表，并添加到ViewPager中。当然，这只是一个抽象思路，对于处理
+字符串的操作，我并没有使用高效的算法来增加效率，所以如果用的是老机型，我不能
