@@ -17,3 +17,4 @@ void inCardParams(int weekDay,int startNo, int endNo,View v,Context c,String con
 webview抓取仍在开发中，在repository中，我会提供详细的实现代码。这是一个免费的开源项目，禁止用于盈利。   
                                                                            
 # 项目中类目录如下(v1.0)
+Adapter//用于适配手机翻页功能
