@@ -13,5 +13,5 @@ void inCardParams(int weekDay,int startNo, int endNo,View v,Context c,String con
                                                                            
 在重写方法中，添加TextViews绘制卡片式课程表，并添加到ViewPager中。当然，这只是一个抽象思路，对于  
 处理字符串的操作，我并没有使用高效的算法来增加效率，所以如果用的是老机型，我不能保证老机型的打开速度。 
-此外，真正的实现代码远比这个复杂，目前的版本是v1.0的初代版本，实现了sqlite存储本地html的功能，对于  
+此外，真正的实现代码远比这个复杂，目前的版本是v1.0的初代版本，实现了sqlite存储本地html的功能，目前  
 webview抓取仍在开发中，在repository中，我会提供详细的实现代码。这是一个免费的开源项目，禁止用于盈利  
