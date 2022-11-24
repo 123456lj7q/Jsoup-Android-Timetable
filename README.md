@@ -3,5 +3,5 @@
 # 开发要点
 开发思路：该网页爬虫使用了jsoup中的一些API，形如javascript中的querySelector，对本地或者webview中的
 页面元素进行爬取，并编写形如ParseHtml的字符串工具类，将形如
-<u class="title showJxbtkjl"data-jxb_id="xxx"...><font color="blue">高等数学</font></u>
+<u class="title showJxbtkjl"data-jxb_id="xxx"...><font color="blue">高等数学<font><u>
 的网页标签中的内容打包成数组，去重，规范化最后定义NormalizeParams
