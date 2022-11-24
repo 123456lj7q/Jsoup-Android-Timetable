@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <AbsoluteLayout
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0"
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:elevation="5px">
+
+        <ImageView
+            android:background="@drawable/grid_tint_color4"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:elevation="2px"
+            android:layout_x="0dp"
+            android:layout_y="0dp"/>
+
+        <TextView
+            android:id="@+id/currentDate"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:textAlignment="center"
+            android:elevation="2px"
+            android:textSize="20dp"
+            android:text="1970/1/1"
+            android:textColor="@color/grid_color"
+            android:layout_y="3dp"
+            android:layout_x="120dp"
+            />
+
+        <TextView
+            android:id="@+id/currentWeek"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:textAlignment="center"
+            android:elevation="2px"
+            android:textSize="14dp"
+            android:text="第1周 非本周"
+            android:textColor="@color/grid_color"
+            android:layout_y="33dp"
+            android:layout_x="120dp"
+            />
+
+        <Button
+            android:id="@+id/del"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_x="20dp"
+            android:layout_y="5dp"
+            android:text="删除"
+            android:textSize="20dp"/>
+
+        <Button
+            android:id="@+id/select"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_x="270dp"
+            android:layout_y="5dp"
+            android:text="选择"
+            android:textSize="20dp"/>
+    </AbsoluteLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
