@@ -1,7 +1,7 @@
 # Jsoup-Android-Timetable
 这是一个兼容正方教务系统的网页解析器，用于开发安卓移动端的高校课程表，并用以实现类似超级课程表的效果
 # Utils&Tools
-Jsoup1.5.3,Android Studio 2020
+Jsoup1.5.3,Android Studio 2020,htmlunit2.76.0,xml-apis1.4.0
 # 开发要点
 开发思路：该网页爬虫使用了jsoup中的一些API，形如javascript中的querySelector，对本地或者webview中的  
 页面元素进行爬取，并编写形如ParseHtml的字符串工具类，将形如：   
@@ -26,4 +26,7 @@ ParseHtml.java,eachDay.java//字符串工具类，解析网页以及生成对象
 ResolveAndDrawImportedTable.java//定义卡片样式，重写接口并绘制课表  
 SetSemeseterDates.java//计算当前日期，初始化ViewPager的日历  
 SQLite.java//存储在本地的数据库类，非空时直接绘制卡片  
-Transition.java//加载动画类，提供过渡动画
+Transition.java//加载动画类，提供过渡动画   
+
+# 2.0版本更新目录(v2.0)
+准备了编译好的apk文件，可以直接安装执行
